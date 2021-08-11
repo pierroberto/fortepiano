@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build",
+    "prepare": "tsc",
     "test": "jest --coverage --collectCoverageFrom=src/**/*.ts"
   },
   "repository": {
